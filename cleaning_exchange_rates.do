@@ -3,21 +3,11 @@
 Description: This is a compilation of all the years, cleaning exchange rates, and ranges not caught 
 
 Data:  has been cleaned for each individual ISSP dataset, now compiling to clean the income values, merge in survey dates for missing values, add in exchange rates, and drop countries pre-Euro transition with currency changes. 
-
+Output: dataset with income in USD that can be used for analysis
 Created: 10/10/2023
 
 */ 
 
-
-/* Assignment: 
-Once you have the cleaned dataset, please create a document that summarizes the following:
-- Number of countries in our dataset in each year
-- Number of respondents in our dataset in each year
-- Fraction of the sample that is female in each year (allowing for an unbalanced sample of
-countries across years)
-- Average age of the respondent over the entire sample by country
-- Average nominal income in each country over the entire sample period
-*/
 
 ******************* 
 * Creates globals for the folders
